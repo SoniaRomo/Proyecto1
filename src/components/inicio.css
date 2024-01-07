@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedorInicio {
+    background: linear-gradient(to right, #5170FF, #F284E0);
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 70px 0;
+    text-align: center;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .column {
+    flex-basis: 48%; /* Ancho de cada columna (ajusta según sea necesario) */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .column img {
+    width: 100%; /* Ajusta el ancho de las imágenes */
+  }
+  
+  .column p {
+    margin-top: 10px; /* Ajusta el margen superior del párrafo */
+  }
+  
